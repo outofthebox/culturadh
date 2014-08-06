@@ -1,0 +1,152 @@
+// Place all the styles related to the culturadh controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html { 
+  background: url(bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  body {
+  	margin: 0;
+  	overflow: hidden;
+  }
+
+  .menu > ul > a > li {
+    list-style-type: none;
+    display: block;
+  }
+
+  .container {
+  	width: 100%;
+  	height: auto;
+  	min-height: 100%;
+  	position: relative;
+  	top: 0;
+  	left: 0;
+
+  	.left {
+  		width: 740px;
+  		height: 100%;
+  		position: absolute;
+  		left: 0;
+  		top: 0;
+  		bottom: 0;
+  		margin:auto;
+
+  		.logo {
+  			top: 80px;
+  			position: relative;
+  			width: 826px;
+  			height: 168px;
+  		}
+
+  		.cultura_txt {
+  			width: 693px;
+  			height: 168px;
+  			position: relative;
+  			margin-top: 200px;
+  		}
+
+  		.porque {
+  			width: 468px;
+  			height: 154px;
+  			position: relative;
+  			margin-top: 80px;
+  			margin-left: 50px;
+  		}
+  	}
+
+  	.right {
+  		width: 428px;
+  		height: 800px;
+  		position: absolute;
+  		right: 0;
+  		top: 0;
+  		bottom: 0;
+
+  		.contacto {
+			width: 204px;
+			height: 77px;
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 40px;
+  		}
+
+      .menu{
+        height: auto;
+        right: 0;
+        margin-top: 30px;
+
+        .menu_option {
+          width: 395px;
+          height: 122px;
+          position: relative;
+          margin-bottom: 20px;
+        }
+
+        .op1 {
+          background-image: url(culturadh.png);
+          background-repeat: no-repeat; 
+        }
+
+        .op2 {
+          background-image: url(que.png);
+          background-repeat: no-repeat;  
+        }
+
+        .op3 {
+          background-image: url(como.png);
+          background-repeat: no-repeat;  
+        }
+
+        .op4 {
+          background-image: url(equipo.png);
+          background-repeat: no-repeat;  
+        }
+      }
+
+      .rs{
+        width: 230px;
+        height: 80px;
+        background-image: url(rs.png);
+        background-repeat:no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+
+        .fb {
+          width: 54px;
+          height: 54px;
+          border-radius: 50%;
+          cursor: pointer;
+          position: absolute;
+          margin-left: 0px;
+          margin-top: -56px;
+        }
+
+        .tw {
+          width: 54px;
+          height: 54px;
+          border-radius: 50%;
+          cursor: pointer;
+          position: relative;
+          margin-left: 80px;
+        }
+
+        .blg {
+          width: 54px;
+          height: 54px;
+          border-radius: 50%;
+          cursor: pointer;
+          position: absolute;
+          margin-left: 162px;
+          margin-top: -54px;
+        }
+      }
+  	}
+  }
+}

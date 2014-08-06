@@ -1,0 +1,28 @@
+.container
+  .left
+    .logo
+      =image_tag 'logo.png'
+    .cultura_txt
+      =image_tag 'frase.png'
+    .porque
+      =image_tag 'porque.png'
+  .right
+    .contacto
+      =image_tag 'contacto.png'
+    .menu
+      %ul
+        %a{href: "/dh.pdf"}
+          %li{:class=>'menu_option op1'}
+        %a{href: "/que.pdf"}
+          %li{:class=>'menu_option op2'}
+        %a{href: "como.pdf"}
+          %li{:class=>'menu_option op3'}
+        %a{href: "#"}
+          %li{:class=>'menu_option op4'}
+    .rs 
+      %a{href: "https://twitter.com/culturadh"}
+        .tw
+      %a{href: "https://www.facebook.com/DH.Cultura"}
+        .fb
+      %a{href: "#"}
+        .blg
