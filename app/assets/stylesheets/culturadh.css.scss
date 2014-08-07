@@ -20,15 +20,17 @@ html {
   }
 
   .container {
-  	width: 100%;
-  	height: auto;
-  	min-height: 100%;
-  	position: relative;
-  	top: 0;
-  	left: 0;
+  	width: 1200px;
+  	height: 500px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 
   	.left {
-  		width: 740px;
+  		width: 450px;
   		height: 100%;
   		float: left;
   		top: 0;
@@ -36,52 +38,50 @@ html {
   		margin:auto;
 
   		.logo {
-  			top: 80px;
   			position: relative;
-  			width: 826px;
-  			height: 168px;
+  			width: 445px;
+  			height: 90px;
   		}
 
   		.cultura_txt {
-  			width: 693px;
-  			height: 168px;
+  			width: 374px;
+  			height: 91px;
   			position: relative;
-  			margin-top: 200px;
+  			margin-top: 100px;
   		}
 
   		.porque {
-  			width: 468px;
-  			height: 154px;
+  			width: 374px;
+  			height: 91px;
   			position: relative;
   			margin-top: 80px;
-  			margin-left: 50px;
   		}
   	}
 
   	.right {
-  		width: 428px;
-  		height: 800px;
+  		width: 255px;
+  		height: 100%;
   		float: right;
   		top: 0;
   		bottom: 0;
+      margin: auto;
 
   		.contacto {
-			width: 204px;
-			height: 77px;
+			width: 110px;
+			height: 42px;
 			position: relative;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 40px;
+			margin-left: 85px;
+			margin-top: 30px;
   		}
 
       .menu{
         height: auto;
         right: 0;
-        margin-top: 30px;
+        margin-top: 50px;
 
         .menu_option {
-          width: 395px;
-          height: 122px;
+          width: 209px;
+          height: 64px;
           position: relative;
           margin-bottom: 20px;
         }
@@ -108,40 +108,39 @@ html {
       }
 
       .rs{
-        width: 230px;
-        height: 80px;
+        width: 117px;
+        height: 29px;
         background-image: url(rs.png);
         background-repeat:no-repeat;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 85px;
 
         .fb {
-          width: 54px;
-          height: 54px;
+          width: 29px;
+          height: 29px;
           border-radius: 50%;
           cursor: pointer;
           position: absolute;
           margin-left: 0px;
-          margin-top: -56px;
+          margin-top: -29px;
         }
 
         .tw {
-          width: 54px;
-          height: 54px;
+          width: 29px;
+          height: 29px;
           border-radius: 50%;
           cursor: pointer;
           position: relative;
-          margin-left: 80px;
+          margin-left: 44px;
         }
 
         .blg {
-          width: 54px;
-          height: 54px;
+          width: 29px;
+          height: 29px;
           border-radius: 50%;
           cursor: pointer;
           position: absolute;
-          margin-left: 162px;
-          margin-top: -54px;
+          margin-left: 88px;
+          margin-top: -29px;
         }
       }
   	}
