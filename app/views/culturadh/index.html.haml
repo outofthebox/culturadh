@@ -8,7 +8,8 @@
       =image_tag 'porque.png'
   .right
     .contacto
-      =image_tag 'contacto.png'
+      =mail_to 'culturadh@culturadh.mx' do         
+        =image_tag 'contacto.png'
     .menu
       %ul
         %a{href: "/dh.pdf"}
@@ -24,5 +25,5 @@
         .tw
       %a{href: "https://www.facebook.com/DH.Cultura"}
         .fb
-      %a{href: "#"}
+      %a{href: ""}
         .blg

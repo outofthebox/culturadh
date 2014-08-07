@@ -41,6 +41,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'actionview-encoded_mail_to', '~> 1.0.4'
+
 gem 'haml-rails'
 
 group :production do
